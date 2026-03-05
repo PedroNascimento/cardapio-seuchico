@@ -21,7 +21,7 @@ export default function LanguageSwitcher() {
           key={l.locale}
           onClick={() => setLocale(l.locale)}
           aria-label={`Switch to ${l.label}`}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs transition-all duration-300 ${
+          className={`flex items-center gap-1.5 px-2 py-2 sm:px-3 sm:py-1.5 rounded-full text-xs transition-all duration-300 ${
             locale === l.locale
               ? "bg-botequim-secondary text-white shadow-md scale-105"
               : "text-botequim-secondary/60 hover:text-botequim-secondary hover:bg-botequim-secondary/5"
@@ -31,7 +31,7 @@ export default function LanguageSwitcher() {
           <img 
             src={`https://flagcdn.com/w40/${l.code}.png`} 
             alt="" 
-            className="w-4 h-3 object-cover rounded-[1px] shadow-xs"
+            className="w-7 h-5 sm:w-4 sm:h-3 object-cover rounded-[2px] shadow-xs"
           />
           <span className="hidden sm:inline font-heading font-bold tracking-wider">{l.label}</span>
         </button>

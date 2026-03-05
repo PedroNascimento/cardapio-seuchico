@@ -39,6 +39,14 @@ export const metadata: Metadata = {
     title: "Seu Chico Botequim",
     description: "Cardápio digital do Seu Chico Botequim",
     type: "website",
+    images: [
+      {
+        url: "/images/logo.png",
+        width: 800,
+        height: 600,
+        alt: "Logo Seu Chico Botequim",
+      },
+    ],
   },
 };
 
@@ -52,12 +60,13 @@ export default function RootLayout({
       <body className={`${bebas.variable} ${montserrat.variable} ${nunito.variable} ${caveatBrush.variable} font-body antialiased bg-botequim-bg text-botequim-text`}>
         <div className="fixed inset-0 w-full h-full -z-50 pointer-events-none">
           <Image
-            src="/images/close-up-wood-texture.jpg"
-            alt="Textura de Madeira"
+            src="/images/Backgroud-cardapio.png"
+            alt=""
             fill
-            className="object-cover opacity-[0.22] mix-blend-multiply"
+            className="object-cover object-[85%_center] md:object-center opacity-20"
             priority
-            quality={40}
+            quality={75}
+            sizes="100vw"
           />
         </div>
         <LanguageProvider>{children}</LanguageProvider>

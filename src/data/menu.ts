@@ -252,7 +252,7 @@ export const menuCategories: MenuCategory[] = [
       {
         code: "000",
         name: {
-          "pt-BR": "Camaroozin do Véi",
+          "pt-BR": "Camarãozin do Véi",
           en: "Little Shrimp Snack",
           es: "Bocadito de Camarones",
           fr: "Petites Crevettes Snack",

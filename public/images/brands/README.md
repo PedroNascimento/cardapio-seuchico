@@ -5,12 +5,14 @@ O cardápio digital irá exibi-las automaticamente quando o arquivo tiver o nome
 
 ## Bandeiras de Cartão
 
-| Nome       | Arquivo          |
-| ---------- | ---------------- |
-| Visa       | `visa.png`       |
-| Mastercard | `mastercard.png` |
-| Hipercard  | `hipercard.png`  |
-| Elo        | `elo.png`        |
+| Nome             | Arquivo                | Status |
+| ---------------- | ---------------------- | ------ |
+| Visa             | `visa.png`             | ✅     |
+| Mastercard       | `mastercard.png`       | ✅     |
+| American Express | `american-express.png` | ✅     |
+| Elo              | `elo.png`              | ✅     |
+| Hipercard        | `hipercard.png`        | ✅     |
+| Rede Shop        | `rede-shop.png`        | ✅     |
 
 ## Marcas de Cerveja
 

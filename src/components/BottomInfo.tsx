@@ -13,18 +13,20 @@ function getLocalizedString(str: LocalizedString, locale: Locale): string {
 const CARD_LOGOS: { name: string; src: string }[] = [
   { name: "Visa", src: "/images/brands/visa.png" },
   { name: "Mastercard", src: "/images/brands/mastercard.png" },
-  { name: "Hipercard", src: "/images/brands/hipercard.png" },
+  { name: "American Express", src: "/images/brands/american-express.png" },
   { name: "Elo", src: "/images/brands/elo.png" },
+  { name: "Hipercard", src: "/images/brands/hipercard.png" },
+  { name: "Rede Shop", src: "/images/brands/rede-shop.png" },
 ];
 
 function CardLogo({ name, src }: { name: string; src: string }) {
   return (
-    <div className="flex items-center justify-center bg-white rounded-lg px-3 py-1.5 h-10 w-20 shadow-[0_4px_6px_rgba(0,0,0,0.05)] border-0">
+    <div className="flex items-center justify-center bg-white rounded-xl px-2 py-2 h-14 w-full shadow-[0_4px_6px_rgba(0,0,0,0.05)] border-0">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={src}
         alt={name}
-        className="max-h-6 max-w-full object-contain"
+        className="max-h-8 max-w-full object-contain"
         onError={(e) => {
           (e.currentTarget as HTMLImageElement).style.display = "none";
           const parent = e.currentTarget.parentElement;
@@ -77,7 +79,7 @@ export default function BottomInfo() {
             <CreditCard size={20} />
             <h2 className="font-subtitle font-bold text-sm uppercase tracking-[0.2em] text-botequim-secondary">{t.acceptedCards}</h2>
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="grid grid-cols-3 gap-2">
             {CARD_LOGOS.map((c) => (
               <CardLogo key={c.name} name={c.name} src={c.src} />
             ))}
