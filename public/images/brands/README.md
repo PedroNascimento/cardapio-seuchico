@@ -42,3 +42,4 @@ O cardápio digital irá exibi-las automaticamente quando o arquivo tiver o nome
 - Prefira PNG com fundo transparente para melhor resultado visual.
 - Tamanho recomendado: 200×80px ou similar (landscape).
 - Após copiar os arquivos, o Next.js os servirá automaticamente via `/images/brands/<nome>.png`.
+- Implementado
