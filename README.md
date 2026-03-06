@@ -19,9 +19,11 @@
 
 ## 📌 Sobre o Projeto
 
-Este log consiste em um **Cardápio Digital** desenvolvido focado na experiência de usuário (UX) em dispositivos móveis, para o "Seu Chico Botequim". O principal objetivo da aplicação é oferecer uma experiência fluida, rápida e imersiva, facilitando a escolha de pratos e leitura por todas as categorias do estabelecimento.
+O **Cardápio Digital – Seu Chico Botequim** é uma aplicação web desenvolvida para modernizar a experiência do cliente no estabelecimento. O projeto surgiu da necessidade de substituir o cardápio físico por uma solução digital acessível, rápida e fácil de navegar — especialmente em dispositivos móveis.
 
-O cardápio foi planejado como um projeto moderno que engloba **acessibilidade visual**, design minucioso e **suporte dinâmico a múltiplos idiomas** para atender clientes de diferentes nacionalidades.
+O objetivo é oferecer uma experiência fluida e imersiva, onde o cliente localiza qualquer prato ou bebida rapidamente, com informações claras sobre descrição, código e preço — tudo isso disponível em **5 idiomas**, sem recarregar a página.
+
+O desenvolvimento priorizou **acessibilidade visual** (conformidade WCAG AA), qualidade do código TypeScript e uma UI refinada, tornando este projeto um exemplo de construção frontend moderna ponta a ponta.
 
 ### 🎯 Principais Funcionalidades Adotadas
 
