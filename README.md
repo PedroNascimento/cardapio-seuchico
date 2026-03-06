@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/images/logo.png" alt="Logo Seu Chico Botequim" width="150" />
+</div>
 
-## Getting Started
+<br />
 
-First, run the development server:
+<div align="center">
+  <strong>Seu Chico Botequim – Cardápio Digital</strong>
+  <br />
+  Uma aplicação frontend moderna e responsiva de cardápio digital, com suporte multilíngue e excelente experiência de usuário.
+</div>
+
+<div align="center">
+  <br />
+  <a href="https://seuchicobotequim-cardapio.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar_Cardápio_Digital-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Deploy na Vercel" />
+  </a>
+</div>
+
+## 📌 Sobre o Projeto
+
+Este log consiste em um **Cardápio Digital** desenvolvido focado na experiência de usuário (UX) em dispositivos móveis, para o "Seu Chico Botequim". O principal objetivo da aplicação é oferecer uma experiência fluida, rápida e imersiva, facilitando a escolha de pratos e leitura por todas as categorias do estabelecimento.
+
+O cardápio foi planejado como um projeto moderno que engloba **acessibilidade visual**, design minucioso e **suporte dinâmico a múltiplos idiomas** para atender clientes de diferentes nacionalidades.
+
+### 🎯 Principais Funcionalidades Adotadas
+
+- **Modernidade Visual e Mobile-First**: Interface projetada especificamente para oferecer a melhor experiência em smartphones, mas se adaptando em harmonia até para telas desktop.
+- **Multilíngue Dinâmico**: Abstração elaborada para suportar até 5 idiomas (Português, Inglês, Espanhol, Francês e Italiano). A troca de idiomas traduz seções e pratos em tempo real utilizando a _Context API_ do React.
+- **Navegação Elegante e Spy-Scroll**: A barra de navegação das categorias rastreia suavemente onde o usuário está no cardápio. À medida que percorre a tela, o indicador ativo transita (_Intersection Observer_).
+- **Refinamento de UX Analítico**: Foco severo em espaçamento de "Touch Targets" (área de toque WCAG para botões) no mobile, indicadores de scroll horizontal de feedback visual (gradiente edge-fade) e contraste das cores.
+- **SEO & Core Web Vitals Auditado**: Arquivos de metadados, Open Graph preview para links (WhatsApp) e compressão das imagens WebP integradas utilizando diretrizes estritas do framework.
+
+## 💻 Tecnologias Empregadas
+
+Toda a arquitetura técnica foi firmada nas tecnologias nativas mais recomendadas do mercado de Frontend contemporâneo:
+
+- **[React](https://reactjs.org/)** – A fundação para criação de interfaces interativas e reativas.
+- **[Next.js 14/15 (App Router)](https://nextjs.org/)** – A espinha dorsal do projeto para providenciar SSG e performance robusta.
+- **[TypeScript](https://www.typescriptlang.org/)** – Para entregar integridade, tipagem estática e manutenção de contratos do Menu TS.
+- **[Tailwind CSS](https://tailwindcss.com/)** – Empregado para estilização sem sair da camada HTML com design tokens reutilizáveis.
+- **[Lucide React](https://lucide.dev/)** – Bibliotecas de vetores limpos e adaptáveis.
+- **[Vercel](https://vercel.com/)** – Hospedagem Edge/Serverless otimizada para o ecossistema e repositório.
+
+## 🚀 Como visualizar o projeto rodando
+
+Você pode testar a aplicação viva e veloz através deste link oficial do Deploy:
+👉 **[Acesse o cardápio em Produção](https://seuchicobotequim-cardapio.vercel.app/)**
+
+### 💻 Como executar o código-fonte localmente
+
+Caso queira inspecionar a arquitetura no seu ambiente local, rodar o app não toma mais de dois minutos:
+
+**Pré-requisitos**: Um gerenciador de dependências rodando, por exemplo, o **Node.js**.
+
+1. Clone esse repositório:
+
+```bash
+git clone {INSIRA_A_Sua_URL_do_Git}
+```
+
+2. Acesse a pasta base:
+
+```bash
+cd cardapio-seuchico
+```
+
+3. Resolva e instale as dependências:
+
+```bash
+npm install
+```
+
+4. Suba o servidor Next de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. O aplicativo inicializará na rota padrão. Acesse: `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Projeto construído não apenas para providenciar o Menu Digital, mas para demonstrar código limpo, boas práticas, performance, acessibilidade e engenharia moderna de Frontend.
